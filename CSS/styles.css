@@ -1,0 +1,519 @@
+html {
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+a:hover {
+    color: #040506;
+    /*color: lightgreen;*/
+}
+
+header a {
+    color: #040506;
+    font-weight: bolder;
+}
+
+header {
+    font-size: 1.2em;
+}
+
+button {
+    background: none;
+    border: none;
+    padding-right: 0;
+}
+
+header a:hover {
+    color: #88d498;
+}
+
+h4:hover {
+    color: #040506;
+    transition-duration: 0.25s;
+    opacity: 0.7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+main {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Anton', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    background: #fdfefc;
+    display: flex;
+    max-width: 1800px;
+
+
+}
+
+main.dark {
+    background: #114B5F;
+}
+
+
+#logo {
+    /*font-weight: bold;*/
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Anton', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+
+aside {
+    /*height: 100vh;*/
+    display: flex;
+    color: #040506;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 0.2px solid lightgray;
+    padding-right: 4rem;
+    padding-left: 4.5vw;
+    padding-top: 2rem;
+    position: fixed;
+    min-width: 10vw;
+    max-width: 14vw;
+}
+
+header {
+    /*background: lightcyan;*/
+}
+
+#pages {
+    display: flex;
+    flex-direction: column;
+}
+
+#pages a {
+    padding: 0.25em 0;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    /*margin-bottom: 6rem;*/
+    padding-top: 1rem;
+    background: #fdfefc;
+}
+
+address h5 {
+    margin-bottom: 0.8em;
+}
+
+address a {
+    padding: 0.25em 0;
+}
+
+#topline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 2.2vw;
+    background: #fdfefc;
+    margin-left: 26vw;
+    height: 3.5rem;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#jour-nuit {
+    padding-top: 0.6em;
+    padding-right: 1.2vw;
+
+}
+
+@media screen and (min-width: 1800px) {
+    #jour-nuit {
+        margin-right: 6vw;
+    }
+}
+
+#central {
+    margin-top: 3.5em;
+    margin-left: 26vw;
+    margin-right: 3vw;
+    width: 71vw;
+}
+
+#promo {
+    background: #c6dabf;
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+    padding: 0.15rem 1.5rem;
+}
+
+#form-param {
+    background: rgba(17, 75, 95, 0.8);
+    text-align: center;
+    color: white;
+    font-size: 1.18em;
+    padding: 1.2rem 1.5rem;
+}
+
+article img {
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+}
+
+#articles {
+    /*background: lightsteelblue;*/
+    border-bottom: 0.2px solid lightgray;
+}
+
+#articles article {
+    margin: 0.6em 0;
+    background: #88d498;
+    height: 36rem;
+    overflow: hidden;
+}
+
+#articles-forms-params article {
+    margin: 0.6em 0;
+    /*background: #88d498;*/
+    border: 0.2px solid lightgray;
+    min-height: 64vh;
+    overflow: hidden;
+}
+
+#articles article img {
+    z-index: -1;
+}
+
+.conteneur-art {
+    margin: 0.2em 1.5em;
+    z-index: 2;
+}
+
+
+#newsletter {
+    border: 0.2px solid lightgray;
+}
+
+#nlbar {
+    margin: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lowfooter {
+    /*margin-top: 1em;*/
+    margin-bottom: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*background: orangered;*/
+}
+
+.socials {
+    margin-top: 45vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#legals {
+    display: flex;
+    flex-direction: row;
+    margin-right: -0.2rem;
+    flex-wrap: wrap;
+}
+
+#lowfooter div p {
+    margin-right: 0.5rem;
+}
+
+footer {
+}
+
+#top-titre {
+    position: fixed;
+    visibility: hidden;
+}
+
+.socials a img {
+    height: 24.5px;
+    width: 24.5px;
+    opacity: 72%;
+    margin-left: 0.5em;
+    background: #fdfefc;
+    padding: 0.4em;
+    border-radius: 0.3em;
+}
+
+#legals p {
+    padding-right: 0.5em;
+}
+
+.socials a img:hover {
+    opacity: 100%;
+}
+
+#jour-nuit img {
+    width: 28px;
+    height: 28px;
+    /*opacity: 0.5;*/
+}
+
+.btn {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#enable-dark img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0.25em;
+}
+
+#enable-dark {
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:focus {
+    opacity: 1;
+}
+
+/***********************DIV DES PARAMS******************************/
+
+.conteneur-art div {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.conteneur-art div h4 {
+    /*background: #88d498;*/
+    text-align: center;
+}
+
+.conteneur-art div span {
+    text-align: center;
+}
+
+.conteneur-art div h4 input {
+    margin-top: 1em;
+}
+
+
+input {
+    padding: 0.5em 0.8em 0.8em 0.8em;
+    border-radius: 0.15em;
+
+}
+
+input[type=submit] {
+    border: none;
+    background: rgba(17, 75, 95, 0.18);
+    margin-left: 2em;
+    padding: 0.5em 0.8em 0.8em 0.8em;
+}
+
+input[type=email] {
+    border: 0.2px solid #114B5F;
+    width: 15em;
+}
+
+input[type=submit]:hover {
+
+    background: rgba(136, 212, 152, 0.6);
+}
+
+.green-button {
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+/*SLIDER*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: auto;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #88d498;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #88d498;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/************* FORMULAIRE DE CONTACT *************/
+
+#conteneur-form form {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /*width: 65em;*/
+}
+
+#conteneur-form input {
+    width: 24.5em;
+
+}
+
+#conteneur-form input[type=submit] {
+    width: 12em;
+    margin: 1.6em auto;
+    font-size: 1.2em;
+
+
+}
+
+#conteneur-form form div {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-content: flex-end;*/
+    /*width: 80vw;*/
+    margin: auto;
+    /*background: #88d498;*/
+    border-radius: 0.15em;
+}
+
+#message {
+    margin-top: 1em;
+    height: 14em;
+    width: 40em;
+    text-align: start;
+    background: rgba(136, 212, 152, 0.03);
+}
+
+#obl {
+    color: orange;
+}
+
+input[type=text]:focus {
+    border: 2px solid #707070;
+}
+
+input[type=text], input[type], input[type=date] {
+    transition: background-color 0.1s ease-in-out;
+}
+
+input[type=text]:focus, input[type=date]:focus {
+    background-color: rgba(136, 212, 152, 0.1);
+}
+
+#mail:focus, #pseudo:focus, #passwd:focus, #passwd2:focus, #mail2:focus, #mail3:focus, #passwdb:focus {
+    background-color: rgba(254, 178, 129, 0.1);
+}
+
+#centrage {
+    justify-content: center;
+    margin-left: 16em;
+}
+
+.pm-box {
+    background: rgba(17, 75, 95, 0.15);
+    border-radius: 0.2em;
+    padding-bottom: 1.2em;
+    padding-top: -1.5em;
+}
+
+#leftie {
+    margin-left: 1em;
+}
+
+#gene {
+    color: rgba(254, 178, 129, 1);
+}
+
+#images-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#images-view div {
+    padding: 2em;
+}
+
+#images-view div div img {
+    width: 8.2em;
+}
+
+#aj-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: #88d498;
+    color: white;
+    margin: 3.8em 0 0 4.5em;
+    text-align: center;
+    font-size: 0.95em;
+    padding-top: 0.62em;
+}
