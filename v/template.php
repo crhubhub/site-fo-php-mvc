@@ -29,7 +29,7 @@
                 <a href="<?= URL ?>galerie">Galerie</a>
                 <a href="<?= URL ?>liens-conseils">Liens, conseils</a>
                 <a href="<?= URL ?>tutos-trouves">Tutoriels partagés</a>
-                <a href="<?= URL ?>tuto-concu">Tutoriel conçu</a>
+                <a href="<?= URL ?>tuto-concu">Mon tuto</a>
             </nav>
         </header>
         <div></div>

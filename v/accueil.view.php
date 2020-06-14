@@ -2,7 +2,7 @@
     <div id="articles">
         <article>
             <div class="conteneur-art" )>
-                <a href="<?= URL?>galerie"><h4>GALERIE D'IMAGES</h4>
+                <a href="<?= URL?>galerie"><h2>Galerie</h2>
                 <img src="public/images/1.png" alt="">
                 </a>
             </div>
@@ -11,7 +11,7 @@
             <img src="" alt="">
             <div class="conteneur-art">
                 <a href="<?php URL ?>liens-conseils">
-                <h4>LIENS / CONSEILS</h4></a>
+                <h2>Liens, conseils (cliquez pour la page complète) </h2></a>
                 <?php
                 include "v/fenetre-liens.view.php";
                 ?>
@@ -21,7 +21,7 @@
             <img src="" alt="">
             <div class="conteneur-art">
                 <a href="<?php URL ?>tutos-trouves">
-                    <h4>JE PARTAGE DES TUTOS</h4></a>
+                    <h2>Tutos shared (cliquez pour la page complète)</h2></a>
                 <?php
                 include "v/fenetre-tutos.view.php";
                 ?>
@@ -31,7 +31,7 @@
             <img src="" alt="">
             <div class="conteneur-art">
                 <a href="<?php URL ?>tuto-concu">
-                    <h4>J'AI CONCU UN TUTO</h4></a>
+                    <h2>Mon tuto (cliquez pour la page complète)</h2></a>
                 <?php
                 include "v/fenetre-tuto-concu.view.php";
                 ?>
